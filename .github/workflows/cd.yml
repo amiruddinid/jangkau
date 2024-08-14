@@ -33,4 +33,4 @@ jobs:
           script: |
             docker pull sqfreakz/jangkau:latest
             cd /var/www/jangkau
-            docker-compose up -d --build
+            docker compose up -d --build
